@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import css from './Filter.module.css';
 
 export class Filter extends Component {
   render() {
     return (
       <div>
-        <p>Find contacts by name</p>
+        <p className={css.filterTitle}>Find contacts by name</p>
         <label>
           <input
             type="tel"

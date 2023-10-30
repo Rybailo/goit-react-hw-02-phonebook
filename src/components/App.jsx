@@ -51,9 +51,9 @@ export class App extends Component {
       <div
         style={{
           height: '100vh',
-          //display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'start-left',
           fontSize: 40,
           color: '#010101',
         }}
